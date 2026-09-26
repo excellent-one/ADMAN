@@ -1,0 +1,13 @@
+seed: 2026
+model: model name
+device: cuda
+gpu: '0'
+training:
+  class_num: 2
+  batch_size: 16
+checkpoint:
+  model_path: model checkpoint path
+evaluation:
+  test_root: evaluation folder
+  test_domain: evaluation subfolder
+  output_dir: output folder
